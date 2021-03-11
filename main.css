@@ -1,0 +1,47 @@
+
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(to right , blue , white);
+
+        }
+            .result{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            margin-top: 5px;
+            grid-gap: 1em;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .data{
+            margin-top: 10px;
+            background: linear-gradient(to right , blue , white);
+          display: grid;
+          grid-template-rows: 1fr 1fr 4fr;
+        }
+        p,h5{
+            text-align: center;
+        }
+        h5{
+            font-size: 1.3rem;
+        }
+        .tile > h6 {
+            background-color: firebrick;
+            margin: 0px;
+            font-size: 0.7rem;
+            display: inline-block;
+            padding: 3px 15px;
+        }
+        p{
+            background: linear-gradient(to right , blue , white);
+            color: firebrick;
+            padding: 20px 15px;
+            margin:0;
+            font-size: 1.1rem;
+        }
+        .tile{
+            background-color: gray;
+        }
